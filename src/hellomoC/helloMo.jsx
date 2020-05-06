@@ -40,7 +40,8 @@ export class Events extends React.Component{
   render(){
     return(
       <div>
-        <h1 style= {{color: 'whitesmoke', fontSize: '48px', textAlign: 'center', fontFamily: 'Open Sans Condensed'}}> Events </h1>    
+        <h1 style= {{color: '#434343', fontSize: '48px', textAlign: 'center', fontFamily: 'Open Sans Condensed'}}> Events </h1> 
+           
       </div>
     )
   }

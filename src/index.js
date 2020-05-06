@@ -25,13 +25,14 @@ var displayDropdown = (
 
 ReactDOM.render(displayDropdown, document.getElementById('dropdown'));
 
+ReactDOM.render(<Events />, document.getElementById('events'));
+
 ReactDOM.render(<Mission />, document.getElementById('mission'));
 
 ReactDOM.render(<Partners />, document.getElementById('partners'));
 
 ReactDOM.render(<Carousel />, document.getElementById('carouselPics'));
 
-ReactDOM.render(<Events />, document.getElementById('events'));
 
 
 
