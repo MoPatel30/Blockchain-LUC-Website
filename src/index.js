@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
 import { HelloMo1 } from './hellomoC/helloMo.jsx';
-import { App, Carousel } from './appC/App.jsx';
+import { App, Buttons } from './appC/App.jsx';
 import { Dropdown } from './dropdownC/dropdown.jsx';
 import { Mission } from './hellomoC/helloMo.jsx';
 import { Partners, Events } from './hellomoC/helloMo.jsx';
@@ -11,7 +12,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-
+//all rendering comps for home page
 ReactDOM.render(<App />, document.getElementById('app'));
 
 ReactDOM.render(<HelloMo1 />, document.getElementById('hellomo'));
@@ -22,6 +23,7 @@ var displayDropdown = (
   </div>
 );
 
+ReactDOM.render(<Buttons />, document.getElementById('navButton'));
 
 ReactDOM.render(displayDropdown, document.getElementById('dropdown'));
 
@@ -31,7 +33,7 @@ ReactDOM.render(<Mission />, document.getElementById('mission'));
 
 ReactDOM.render(<Partners />, document.getElementById('partners'));
 
-ReactDOM.render(<Carousel />, document.getElementById('carouselPics'));
+
 
 
 

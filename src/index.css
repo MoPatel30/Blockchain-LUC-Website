@@ -27,7 +27,7 @@ code {
 
 #dropdown {
   position: relative; 
-  top: -400px;
+  top: -325px;
 }
 
 #hellomo {
@@ -40,4 +40,22 @@ code {
 #carouselPics {
   position: relative; 
   top: 500px;
+}
+
+navButton {
+ position: relative;
+ left: 200px;
+}
+
+.header-nav-button {
+  vertical-align: right;
+  position: relative;
+  top: -85px;
+  left: 1100px;
+  font-family: "Open Sans Condensed";
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: whitesmoke;
+  margin: 0.9em;
+
 }
