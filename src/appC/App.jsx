@@ -4,10 +4,11 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+
 import "../about.css"
-import About from "../aboutC/aboutC.jsx";
-import Education from "../educationC/educationC.jsx";
-import Home from "../educationC/educationC.jsx";
+import {About} from "../aboutC/aboutC.jsx";
+import {Education} from "../educationC/educationC.jsx";
+import {Home} from "../educationC/educationC.jsx";
 
 //import { render } from '@testing-library/react';
 
