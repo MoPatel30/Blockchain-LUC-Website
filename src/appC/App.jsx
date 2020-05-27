@@ -4,9 +4,10 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-
+import "../about.css"
 import About from "../aboutC/aboutC.jsx";
 import Education from "../educationC/educationC.jsx";
+import Home from "../educationC/educationC.jsx";
 
 //import { render } from '@testing-library/react';
 
@@ -44,6 +45,119 @@ export class Buttons extends React.Component {
     )
   }
 }
+
+
+export class ButtonsEducation extends React.Component{
+  constructor(){
+    super()
+    this.state = { showMessage: true }
+  
+  }
+  operation(){
+    this.setState ({showMessage: !this.state.showMessage})
+  }
+
+  
+  render() {
+    return (
+      <div>
+      
+        {
+        this.state.showMessage?
+        <div>
+          <HashRouter>
+          <Route path="/Education" component={Education}/>
+          </HashRouter>
+        </div>
+        :null
+        }
+        <nav>
+          <HashRouter>
+            <NavLink to="/Education">
+              <button onClick={()=>this.operation()} style = {{ backgroundColor: 'whitesmoke', position: 'absolute', top: '62.5px', left: '1250px', fontSize: '24px', fontFamily: 'Open Sans Condensed'}}>Education</button>
+            </NavLink>
+          </HashRouter>
+        </nav>
+      </div>
+    )
+  }
+}
+
+
+export class ButtonsAbout extends React.Component{
+  constructor(){
+    super()
+    this.state = { showMessage: true }
+  
+  }
+  operation(){
+    this.setState ({showMessage: !this.state.showMessage})
+  }
+
+  
+  render() {
+    return (
+      <div>
+      
+        {
+        this.state.showMessage?
+        <div>
+          <HashRouter>
+          <Route path="/About" component={About}/>
+          </HashRouter>
+        </div>
+        :null
+        }
+        <nav>
+          <HashRouter>
+            <NavLink to="/About">
+              <button onClick={()=>this.operation()} style = {{ backgroundColor: 'whitesmoke', position: 'absolute', top: '62.5px', left: '1400px', fontSize: '24px', fontFamily: 'Open Sans Condensed'}}>About</button>
+            </NavLink>
+          </HashRouter>
+        </nav>
+      </div>
+    )
+  }
+}
+
+  
+
+export class ButtonsHome extends React.Component{
+  constructor(){
+    super()
+    this.state = { showMessage: true }
+  
+  }
+  operation(){
+    this.setState ({showMessage: !this.state.showMessage})
+  }
+
+  
+  render() {
+    return (
+      <div>
+      
+        {
+        this.state.showMessage?
+        <div>
+          <HashRouter>
+          <Route path="/Home" component={Home}/>
+          </HashRouter>
+        </div>
+        :null
+        }
+        <nav>
+          <HashRouter>
+            <NavLink exact to="/Home">
+              <button onClick={()=>this.operation()} style = {{ backgroundColor: 'whitesmoke', position: 'absolute', top: '62.5px', left: '1125px', fontSize: '24px', fontFamily: 'Open Sans Condensed'}}>Home</button>
+            </NavLink>
+          </HashRouter>
+        </nav>
+      </div>
+    )
+  }
+}
+
 
 
 

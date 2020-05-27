@@ -28,8 +28,9 @@ export class Partners extends React.Component{
   render(){
     return(
       <div>
-        <h1 style= {{color: '#434343', fontSize: '48px', textAlign: 'center', fontFamily: 'Open Sans Condensed'}}> Sponsers & Partners </h1>
+        <h1 style= {{color: '#434343', fontSize: '48px', textAlign: 'center', fontFamily: 'Open Sans Condensed'}}> Sponsers & Affiliates </h1>
         <img src= {"https://spartanblockchain.org/img/blockchain-education-network.png"} alt = "logo" style= {{position: 'relative', height:'225px', width: '250px', left: '400px'}}></img>
+        <img src= {"../src/images/mousebeltUniversityLogin.png"} alt = "logo" style= {{position: 'relative', height:'225px', width: '250px', left: '800px'}}></img>
       </div>
     )
   }

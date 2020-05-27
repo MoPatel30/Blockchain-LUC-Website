@@ -12,13 +12,12 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  #aboutMain{
-    background-color: red;
-  }
-
-  #about-show-button {
-    background-color: #f44336;
-    position: relative;
-    right: 400px;
-  }
-  
+#blockchain-section{
+    background-color: white;
+    border: 8px solid gold;
+    width: 600px;
+    height: 590px;
+    position: absolute;
+    left: 800px;
+    font-family: courier, monospace;  
+}
