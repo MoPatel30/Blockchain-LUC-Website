@@ -12,9 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#App {
+  background-size: 10% 10%;
+}
 
 #mission {
-  background-color: #BD4141;
+  background-color: #E41235;
 }
 
 #partners {
@@ -34,6 +37,7 @@ code {
   background-image: url("./images/luconwater.jpg");
   background-size: 1500px 320px;
   background-repeat: no-repeat;
+  margin-top: -28.5px;
   
 }
 

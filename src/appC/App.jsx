@@ -15,13 +15,14 @@ import {Home} from "../educationC/educationC.jsx";
 //import logo from './logo.svg';
 //import './App.css';
 
+//#BD4141
 
 
 export class App extends React.Component {
   render(){
     return (
       <div className = "App">
-        <h1 style = {{color: 'whitesmoke', fontFamily: 'Open Sans Condensed', textAlign: 'left', fontSize: '48px', backgroundColor: '#BD4141', margin: "-0.1em", padding: "1em"}}><i><b> Blockchain@LUC </b></i></h1>
+        <h1 style = {{color: 'whitesmoke', fontFamily: 'Open Sans Condensed', textAlign: 'left', fontSize: '48px', backgroundColor: '#E41235',width: "93.88%", margin: "-0.1em", padding: "1em"}}><i><b> Blockchain@LUC </b></i></h1>
       </div>
     )
   }
