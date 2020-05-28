@@ -7,7 +7,7 @@ to explore all things Bitcoin and BLockchain.
 This website was coded in ReactJS, HTML/CSS
 
 This project is currently a website mainly for information. In the future, this site will become more of
-a web-app where users can take certain fundamental courses to learn bitcoin & blockchain on the side (if they wish to, obviously).
+a web-app where users can progress through certain fundamental courses to learn the basics of bitcoin & blockchain on the side. 
 
 
 Club Website Link: 
