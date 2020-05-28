@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import { HelloMo1 } from './hellomoC/helloMo.jsx';
-import { App, Buttons, ButtonsEducation, ButtonsAbout, ButtonsHome } from './appC/App.jsx';
-import { Dropdown } from './dropdownC/dropdown.jsx';
+import { App, ButtonsEducation, ButtonsAbout, ButtonsHome } from './appC/App.jsx';
+
 import { Mission } from './hellomoC/helloMo.jsx';
 import { Partners, Events } from './hellomoC/helloMo.jsx';
 
@@ -17,15 +17,6 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 ReactDOM.render(<HelloMo1 />, document.getElementById('hellomo'));
 
-var displayDropdown = (
-  <div style={{display: 'flex', justifyContent: 'center'}} >
-    <Dropdown />
-  </div>
-);
-
-//ReactDOM.render(<Buttons />, document.getElementById('navButton'));
-
-//ReactDOM.render(displayDropdown, document.getElementById('dropdown'));
 
 ReactDOM.render(<Events />, document.getElementById('events'));
 
