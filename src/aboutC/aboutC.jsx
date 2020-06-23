@@ -8,18 +8,18 @@ export class About extends React.Component {
   render(){
     return(
       <div style = {{marginBottom: "75px"}} >
-        <h2 style= {{textAlign: "center",textIndent: "40px", fontSize: '32px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Club Executives</h2>
-        <p style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Click on the names to learn more about each executive and their current roles/tasks</p>
+        <h2 style= {{textAlign: "center",textIndent: "40px", fontSize: '3rem', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Club Executives</h2>
+        <p style= {{textAlign: 'center', fontSize: '2rem', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Click on the names to learn more about each executive and their current roles/tasks</p>
         
         <ul>
-          <li style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed', }} >Founder & President: Adam Patel</li>
-          <li style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Vice President: Jaser Siddiqui</li>
-          <li style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Treasurer: Gerardo Garcia</li>
-          <li style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Lead Website Developer: Mohammed Patel</li>
-          <li style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Secretary: Mohammad Larya</li>
+          <li id= "name-style">Founder & President: Adam Patel</li>
+          <li id= "name-style">Vice President: Jaser Siddiqui</li>
+          <li id= "name-style">Treasurer: Gerardo Garcia</li>
+          <li id= "name-style">Lead Website Developer: Mohammed Patel</li>
+          <li id= "name-style">Secretary: Mohammad Larya</li>
         </ul>
 
-        <p style= {{textAlign: 'center', fontSize: '24px', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Interested in pursuing an executive role? Email <strong>apatel56@luc.edu</strong> to get the ball rolling and see where you'll fit in best!</p>
+        <p style= {{textAlign: 'center', fontSize: '2rem', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Interested in pursuing an executive role? Email <strong>apatel56@luc.edu</strong> to get the ball rolling and see where you'll fit in best!</p>
       </div>
     )
   }

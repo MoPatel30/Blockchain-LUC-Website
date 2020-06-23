@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: whitesmoke;
+
 }
 
 
@@ -13,6 +14,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  font-size: 12px;
+
+}
+
+
+#ben-pic {
+  position: relative;
+  height: 225px;
+  width: 250px;
+  left: 175px;
+  top: -75px;
+
+}
+
+#bi-pic {
+  position: relative;
+  height: 265px;
+  width: 512px;
+  left: 250px;
+  top: -25px;
+
+}
+
+#mbu-pic {
+  position: relative;
+  height: 114.5px;
+  width: 300px;
+  left: 300px;
+  top: -100px;
+
+}
+
+
 #App {
   background-size: 10% 10%;
 }
@@ -60,7 +96,134 @@ navButton {
   font-family: "Open Sans Condensed";
   font-size: 24px;
   letter-spacing: 0.1em;
-  color: whitesmoke;
+  color: black;
+
   margin: 0.9em;
+
+}
+
+#section-titles{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 4rem;
+  font-family: 'Open Sans Condensed';
+  letter-spacing: '.1em';
+}
+
+
+#mission-style{
+  text-align: center;
+  font-family: "Open Sans Condensed";
+  color: whitesmoke;
+  font-size: 2.25rem; 
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+
+#education-button{
+  background-color: whitesmoke;
+  position: absolute;
+  font-size: 3rem; 
+  font-family: 'Open Sans Condensed';
+
+  
+}
+
+#about-button{
+  background-color: whitesmoke;
+  position: absolute;
+ 
+  font-size: 3rem; 
+  font-family: 'Open Sans Condensed';
+
+  
+}
+
+
+a.button4{
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.1em 0.1em 0;
+  border:0.16em solid rgba(255,255,255,0);
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  text-align:center;
+ 
+}
+
+a.button4:hover{
+  border-color: rgba(255,255,255,1);
+}
+ 
+@media all and (max-width:30em){
+  a.button4{
+    display:block;
+    margin:0.2em auto;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+    
+  html {
+    font-size: 6px;
+
+  }
+
+  
+#hellomo {
+  background-image: url("https://www.luc.edu/media/lucedu/universitynewsroom/newsroom-home1800x735.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -28.5px;
+  
+}
+
+  #ben-pic {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    left: 25px;
+    top: 0px;
+
+  }
+
+  #bi-pic {
+    position: relative;
+    height: 40px;
+    width: 120px;
+    left: 50px;
+    top: -12.5px;
+
+  }
+
+  #mbu-pic {
+    position: relative;
+    height: 30px;
+    width: 60px;
+    left: 100px;
+    top: -25px;
+    
+  }
+
+  #mission-style{
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    color: whitesmoke;
+    font-size: 2.5rem; 
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+  }
+
 
 }
