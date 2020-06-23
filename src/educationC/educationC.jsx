@@ -29,6 +29,7 @@ export class Education extends React.Component{
                     <p id = "text-style"> 4.) <strong>Limited supply</strong> meaning there will only ever be 21 million bitcoin. </p>
                     <p id = "text-style"> 5.) <strong>Public</strong> meaning every single transaction done on the bitcoin network is posted on a public ledger called the <strong>Blockchain</strong> which anyone can <a href="https://blockstream.info/" rel="noopener noreferrer" target = "_blank"> access</a>. </p>
                 </div>
+                
                 <div id="more-information-resources-section">
                     <h1 style = {{color: "#434343", fontSize:"2.5rem", textAlign: "center", fontFamily: 'Open Sans Condensed'}}> Additional Resources </h1>
 
