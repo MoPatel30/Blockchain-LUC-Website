@@ -5,14 +5,18 @@ import '../about.css';
 
 
 export class About extends React.Component {
+
+  operation(){
+
+  }
   render(){
     return(
-      <div style = {{marginBottom: "75px"}} >
-        <h2 style= {{textAlign: "center",textIndent: "40px", fontSize: '3rem', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Club Executives</h2>
+      <div style = {{marginBottom: "175px",position: 'relative', top: '100px'}} >
+        <h2 style= {{textAlign: "center", fontSize: '3rem', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Club Executives</h2>
         <p style= {{textAlign: 'center', fontSize: '2rem', color: '#434343', fontFamily: 'Open Sans Condensed'}}>Click on the names to learn more about each executive and their current roles/tasks</p>
         
         <ul>
-          <li id= "name-style">Founder & President: Adam Patel</li>
+          <li id= "name-style" onClick ={() => this.operation()} >Founder & President: Adam Patel</li>
           <li id= "name-style">Vice President: Jaser Siddiqui</li>
           <li id= "name-style">Treasurer: Gerardo Garcia</li>
           <li id= "name-style">Lead Website Developer: Mohammed Patel</li>

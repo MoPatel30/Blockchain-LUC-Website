@@ -55,6 +55,7 @@ html {
 
 #mission {
   background-color: #E41235;
+
 }
 
 #partners {
@@ -143,6 +144,31 @@ navButton {
 }
 
 
+#about-btn {
+  position: absolute;
+  left: 250px;
+  top: 475px;
+
+
+}
+
+
+#home-btn {
+  position: absolute;
+  left: 675px;
+  top: 475px;
+
+}
+
+#edu-btn {
+  position: absolute;
+  left: 1000px;
+  top: 475px;
+
+}
+
+
+
 a.button4{
   display:inline-block;
   padding:0.3em 1.2em;
@@ -177,6 +203,22 @@ a.button4:hover{
     font-size: 6px;
 
   }
+
+  
+.header-nav-button {
+  vertical-align: right;
+  position: relative;
+  top: -85px;
+  left: 1100px;
+  font-family: "Open Sans Condensed";
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  color: black;
+
+  margin: 0.9em;
+
+}
+
 
   
 #hellomo {
@@ -224,6 +266,31 @@ a.button4:hover{
     margin-right: 25px;
     
   }
+
+    
+  #about-btn {
+    position: absolute;
+    margin-left: 25px;
+    left: 0px;
+    top: 281px;
+
+
+  }
+
+
+  #home-btn {
+    position: absolute;
+    left: 150px;
+    top: 281px;
+
+  }
+
+  #edu-btn {
+    position: absolute;
+    left: 274px;
+    top: 281px;
+
+}
 
 
 }

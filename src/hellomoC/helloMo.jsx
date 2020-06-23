@@ -2,7 +2,9 @@ import React from 'react';
 
 import "../index.css"
 import {Education} from "../educationC/educationC.jsx";
+import {EducationPartTwo} from "../educationC/educationC.jsx";
 import {About} from "../aboutC/aboutC.jsx";
+
 
 export class HelloMo1 extends React.Component{
   render(){
@@ -63,18 +65,25 @@ export class Events extends React.Component{
     })
   }
 
+  toggleHome(){
+    this.setState({
+      name: "home"
+    })
+  }
 
   render(){
     return(
       <div>
         
         <div>
+         
           <p>{this.state.name}</p>
         </div>
 
-        <button onClick = {() => this.toggleAbout()} class = "header-nav-button" style = {{position: 'absolute', left: '250px', top: '475px'}}>  About </button>
-        <button onClick = {() => this.toggleEducation()} class = "header-nav-button"  style = {{position: 'absolute', left: '1000px', top: '475px'}}>  Education </button>
-           
+        <button onClick = {() => this.toggleAbout()} class = "header-nav-button" id = "about-btn">  About </button>
+        <button onClick = {() => this.toggleEducation()} class = "header-nav-button"  id = "edu-btn">  Education </button>
+        <button onClick = {() => this.toggleHome()} class = "header-nav-button"  id = "home-btn">  Home </button>
+
       </div>
     )
   }
