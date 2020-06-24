@@ -10,7 +10,7 @@ export class HelloMo1 extends React.Component{
   render(){
     return (
       <div className = "helloMo">
-        <h1 style = {{color: 'yellow', textAlign: 'center', fontWieght: 'lighter', whiteSpace: "pre-wrap", letterSpacing: '.2em', lineHeight: '1.5em',textTransform: 'uppercase', fontStyle: 'normal', fontFamily: 'Open Sans Condensed', fontSize: '3.5rem', webkitFontSmoothing: 'antialiased', padding: "3em" }}> Bringing the World of Blockchain to Loyola </h1>
+        <h1 style = {{color: 'whitesmoke', textAlign: 'center', fontWieght: 'lighter', whiteSpace: "pre-wrap", letterSpacing: '.2em', lineHeight: '1.5em',textTransform: 'uppercase', fontStyle: 'normal', fontFamily: 'Open Sans Condensed', fontSize: '3.5rem', webkitFontSmoothing: 'antialiased', padding: "3em" }}> Bringing the World of Blockchain to <b style = {{color: 'yellow'}}>Loyola</b> </h1>
       </div>
     );
   }
@@ -39,7 +39,7 @@ export class Partners extends React.Component{
         <h1 id="section-titles" style = {{color: '#434343'}}> Sponsers & Affiliates </h1>
         
         <img src= {"https://spartanblockchain.org/img/blockchain-education-network.png"} alt = "logo" id = "ben-pic"></img>
-        <img src= {"https://weteachblockchain.org/assets/img/logo.jpg"} alt="Blockchain Institute Logo" id = "bi-pic"></img>
+        <img src= {"https://cdn.evbuc.com/images/81575633/313627578122/1/original.20191118-044933"} alt="Blockchain Institute Logo" id = "bi-pic"></img>
         <img src= {"https://mousebelt.university/wp-content/uploads/2019/01/mousebeltUniversityLogin.png"} alt="Mousebelt University Logo" id = "mbu-pic"></img>
       </div>
     )
@@ -48,7 +48,7 @@ export class Partners extends React.Component{
 export class EventsHome extends React.Component {
   render(){
     return(
-      <div style = {{marginBottom: '50px'}}>
+      <div style = {{marginTop: "50px" , marginBottom: '50px'}}>
         <h1 id="section-titles" style = {{ color: '#434343', marginBottom: '50px', position: 'relative', top: '35px'}}>EVENTS</h1>
         <p style = {{fontSize: '16px', textAlign: 'center'}}> Stay tuned for more information regarding future events and meetings!</p>
       </div>
@@ -189,7 +189,7 @@ export class Test extends React.Component{
 
   render(){
     return(
-      <div>
+      <div id = "about-btn-pos">
         <div class="box-1">
           <div onClick ={() => this.showAdam()} class="btn btn-one">
            
@@ -326,9 +326,26 @@ export class Events extends React.Component{
           }
         </div>
 
-        <button onClick = {() => this.toggleAbout()} class = "header-nav-button" id = "about-btn">  About </button>
-        <button onClick = {() => this.toggleEducation()} class = "header-nav-button"  id = "edu-btn">  Education </button>
-        <button onClick = {() => this.toggleHome()} class = "header-nav-button"  id = "home-btn">  Home </button>
+
+        <div class="box-3" id = "middle-btn-pos">
+         
+         
+          <div onClick = {() => this.toggleAbout()} class="btn btn-three">
+            <span>About</span>
+          </div>
+          
+          <div onClick = {() => this.toggleHome()} class="btn btn-three">
+            <span>Home</span>
+          </div>
+         
+          <div onClick = {() => this.toggleEducation()} class="btn btn-three">
+            <span>Education</span>
+          </div>
+           
+            
+        </div>
+      
+
 
       </div>
     )

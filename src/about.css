@@ -35,15 +35,13 @@ ul {
 }
 
 #header-style{
-  color: whitesmoke;
-  font-family: 'Open Sans Condensed';
-  text-align: left;
-  font-size: 4rem;
+ 
   background-color: #E41235;
-  background-size: cover;
-
-  margin: 0px;
+  
   padding: 1em;
+  
+
+  
 }
 
 #home-button{
@@ -86,7 +84,12 @@ ul {
 }
 
 
+
+
+
 @media only screen and (max-width: 414px) {
+
+   
   
   #home-button{
     background-color: whitesmoke;
@@ -122,12 +125,9 @@ ul {
 
     
   #header-style{
-    color: whitesmoke;
-    font-family: 'Open Sans Condensed';
-    text-align: left;
-    font-size: 4rem;
+   
     background-color: #E41235;
-    width: 330px;
+    
 
   
   }

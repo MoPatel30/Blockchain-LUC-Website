@@ -106,7 +106,7 @@ body {
     height: 250px;
     position: absolute;
     left: 62.5px;
-    top: 612.5px;
+    top: 642.5px;
     font-family: courier, monospace;  
     
   }
@@ -118,7 +118,7 @@ body {
     height: 250px;
     position: absolute;
     left: 62.5px;
-    top: 325px;
+    top: 355px;
     margin-top: 10px;
     margin-bottom: 25px;
     font-family: "Open Sans Condensed";
@@ -134,7 +134,7 @@ body {
     left: -62.5px;
 
     margin-bottom: 650px;
-    top: 600px;
+    top: 630px;
     font-family: 'Open Sans Condensed';
   }
 

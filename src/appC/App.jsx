@@ -22,8 +22,8 @@ import {Home} from "../educationC/educationC.jsx";
 export class App extends React.Component {
   render(){
     return (
-      <div className = "App">
-        <h1 id="header-style"><i><b> Blockchain@LUC</b></i></h1>
+      <div id="header-style" className = "App">
+        <h1 style = {{ color: 'whitesmoke', fontFamily: 'Open Sans Condensed', textAlign: "left", fontSize: '4rem'}}><i><b> Blockchain@<b style = {{color: 'yellow'}}>LUC</b></b></i></h1>
       </div>
     )
   }
