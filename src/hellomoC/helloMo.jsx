@@ -36,7 +36,7 @@ export class Partners extends React.Component{
   render(){
     return(
       <div>
-        <h1 id="section-titles" style = {{color: '#434343'}}> Sponsers & Affiliates </h1>
+        <h1 id="section-titles" style = {{color: '#434343'}}> Partners & Affiliates </h1>
         
         <img src= {"https://spartanblockchain.org/img/blockchain-education-network.png"} alt = "logo" id = "ben-pic"></img>
         <img src= {"https://cdn.evbuc.com/images/81575633/313627578122/1/original.20191118-044933"} alt="Blockchain Institute Logo" id = "bi-pic"></img>
