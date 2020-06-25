@@ -15,6 +15,7 @@ body {
       font-size: 1px;
   }
 
+
 #blockchain-section{
   background-color: lightyellow;
   border: 4px solid gray;
@@ -26,6 +27,7 @@ body {
   font-family: courier, monospace;  
     
 }
+
 
 #bitcoin-section{
   background-color: lightyellow; 
@@ -42,6 +44,7 @@ body {
 
 }
 
+
 #more-information-resources-section{
   background-color: lightyellow;
   border: 4px solid gray; 
@@ -53,7 +56,9 @@ body {
   height: 650px;
   top: 150px;
   font-family: 'Open Sans Condensed';
+
 }
+
 
 #btc-video {
   position: relative; 
@@ -66,6 +71,7 @@ body {
 
 }
 
+
 #blockchain-video {
   position: relative; 
   left: 135px;
@@ -77,6 +83,7 @@ body {
 
 }
 
+
 #text-style{
   font-size: 1.5rem;
   color: #434343; 
@@ -84,7 +91,9 @@ body {
   margin-right: 20px;
   line-height: 1.5;
   font-family: 'Open Sans Condensed';
+
 }
+
 
 #article-link-style{
   position: relative;
@@ -92,6 +101,7 @@ body {
   target: "_blank";
   font-family: 'Open Sans Condensed';
   font-size: 2.5rem;
+
 }
 
 
@@ -101,7 +111,6 @@ body {
   
   #blockchain-section{
     background-color: lightyellow;
-    
     border: 4px solid gray;
     width: 250px;
     height: 260px;
@@ -111,6 +120,7 @@ body {
     font-family: courier, monospace;  
     
   }
+
 
   #bitcoin-section{
     background-color: lightyellow; 
@@ -126,6 +136,7 @@ body {
 
   }
 
+
   #more-information-resources-section{
     background-color: lightyellow;
     border: 4px solid gray; 
@@ -133,10 +144,10 @@ body {
     width: 300px;
     height: 300px;
     left: -62.5px;
-
     margin-bottom: 650px;
     top: 630px;
     font-family: 'Open Sans Condensed';
+
   }
 
 
@@ -150,6 +161,7 @@ body {
     top: 25px;
   
   }
+  
   
   #blockchain-video {
     position: relative; 

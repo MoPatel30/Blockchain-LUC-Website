@@ -2,8 +2,7 @@ import React from 'react';
 
 import "../index.css"
 import {Education} from "../educationC/educationC.jsx";
-import {EducationPartTwo} from "../educationC/educationC.jsx";
-import {About, Adam, Jaser, Gerardo, MoPat, MoLa} from "../aboutC/aboutC.jsx";
+import { Adam, Jaser, Gerardo, MoPat, MoLa} from "../aboutC/aboutC.jsx";
 
 
 export class HelloMo1 extends React.Component{
@@ -68,8 +67,6 @@ export class Test extends React.Component{
 
     }
   }
-
-
 
 
 
@@ -243,6 +240,8 @@ export class Test extends React.Component{
   }
 }
 
+
+
 export class Events extends React.Component{
   constructor(){
     super()
@@ -252,9 +251,9 @@ export class Events extends React.Component{
       about: false,
       education: false
 
-
     }
   }
+
 
   toggleAbout(){
     if(this.state.about === true){
@@ -276,6 +275,7 @@ export class Events extends React.Component{
 
   }
 
+
   toggleEducation(){
     if(this.state.education === true){
       this.setState({
@@ -295,6 +295,7 @@ export class Events extends React.Component{
     })
   }
 
+
   toggleHome(){
 
     this.setState({
@@ -304,6 +305,7 @@ export class Events extends React.Component{
       education: false
     })
   }
+
 
   render(){
     return(

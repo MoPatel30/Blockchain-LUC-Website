@@ -12,9 +12,12 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  
   #aboutMain{
     background-color: red;
   }
+  
 
   #about-show-button {
     background-color: #f44336;
@@ -22,27 +25,29 @@ body {
     right: 400px;
   }
   
+
 ul {
   text-align: center;
   list-style-position: inside;
+
 }
+
 
 #name-style{
   text-align: 'center';
   font-size: 2rem;
   color: #434343;
   font-family: 'Open Sans Condensed';
+
 }
+
 
 #header-style{
- 
-  background-color: #E41235;
-  
+  background-color: #E41235; 
   padding: 1em;
-  
-
-  
+ 
 }
+
 
 #home-button{
   background-color: whitesmoke;
@@ -54,6 +59,7 @@ ul {
 
 }
 
+
 #education-button{
   background-color: whitesmoke;
   position: absolute;
@@ -62,8 +68,8 @@ ul {
   font-size: 2rem; 
   font-family: 'Open Sans Condensed';
 
-  
 }
+
 
 #about-button{
   background-color: whitesmoke;
@@ -72,15 +78,14 @@ ul {
   top: 30px;
   font-size: 2rem; 
   font-family: 'Open Sans Condensed';
+
 }
-
-
-
 
 
 #displayer {
   position: relative;
   left: -1000px;
+
 }
 
 
@@ -90,11 +95,13 @@ ul {
 
 }
 
+
 #jaser{
   border: 3px solid lightgray;
   background-color: lightyellow;
 
 }
+
 
 #gerardo{
   border: 3px solid lightgray;
@@ -102,16 +109,19 @@ ul {
 
 }
 
+
 #mopat{
   border: 3px solid lightgray;
   background-color: lightyellow;
 
 }
 
+
 #mola{
   border: 3px solid lightgray;
   background-color: lightyellow;
 }
+
 
 #exec_title {
   font-family: 'Open Sans Condensed';
@@ -128,15 +138,12 @@ ul {
   margin-left: 125px;
   margin-right: 125px;
 
-
 }
 
 
 
 @media only screen and (max-width: 414px) {
 
-   
-  
   #home-button{
     background-color: whitesmoke;
     position: absolute;
@@ -171,7 +178,6 @@ ul {
 
     
   #header-style{
-   
     background-color: #E41235;
     
   }

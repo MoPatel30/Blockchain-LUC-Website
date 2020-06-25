@@ -58,39 +58,4 @@ export class Education extends React.Component{
 }
 
 
-export class EducationPartTwo extends React.Component {
-    render(){
-        return(
-            <div>
-                 <div id="more-information-resources-section">
-                    <h1 style = {{color: "#434343", fontSize:"2.5rem", textAlign: "center", fontFamily: 'Open Sans Condensed'}}> Additional Resources </h1>
-
-                    <h2 style = {{color: "#434343", fontSize:"2rem", textIndent: '20px', fontFamily: 'Open Sans Condensed'}}> Articles </h2>
-
-
-                    <p><a href="https://blog.lopp.net/bitcoin-timestamp-security/" style = {{position: "relative", left: "25px"}} id="article-link-style">Bitcoin Timestamp Security </a></p>
-                    <p><a href="https://nakamoto.com/what-are-the-key-properties-of-bitcoin/" style = {{position: "relative", left: "25px"}} id="article-link-style"> What are the Key Properties of Bitcoin? </a></p>
-                    <p><a href="https://blog.lopp.net/who-controls-bitcoin-core-/" style = {{position: "relative", left: "25px"}} id="article-link-style"> Who Controls Bitcoin Core? </a></p>
-
-
-                    <h2 style = {{color: "#434343", fontSize:"2rem", textIndent: '20px', fontFamily: 'Open Sans Condensed'}}> Videos </h2>
-                    <iframe title = "btc video" id = "btc-video" style = {{src:"https://www.youtube.com/embed/SSo_EIwHSd4", frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
-                    <iframe title = "blockchain video" id = "blockchain-video" style = {{src:"https://www.youtube.com/embed/L-Qhv8kLESY", frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
-                </div>
-            </div>
-        )
-    }
-}
-
-
-export class Home extends React.Component {
-    render(){
-        return(
-            <div>
-        
-            </div>
-        )
-    }
-}
-
 export default Education

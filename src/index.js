@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import { HelloMo1 } from './hellomoC/helloMo.jsx';
-import { App, ButtonsEducation, ButtonsAbout, ButtonsHome } from './appC/App.jsx';
+import { App } from './appC/App.jsx';
 
 import { Mission } from './hellomoC/helloMo.jsx';
 import { Partners, Events } from './hellomoC/helloMo.jsx';
@@ -22,11 +22,6 @@ ReactDOM.render(<Events />, document.getElementById('events'));
 
 ReactDOM.render(<Mission />, document.getElementById('mission'));
 
-//ReactDOM.render(<ButtonsEducation />, document.getElementById("education-button"))
-
-//ReactDOM.render(<ButtonsAbout />, document.getElementById("about-button"))
-
-//ReactDOM.render(<ButtonsHome />, document.getElementById("home-button"))
 
 ReactDOM.render(<Partners />, document.getElementById('partners'));
 
