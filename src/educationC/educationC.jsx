@@ -43,8 +43,10 @@ export class Education extends React.Component{
 
 
                     <h2 style = {{color: "#434343", fontSize:"2rem", textIndent: '20px', fontFamily: 'Open Sans Condensed'}}> Videos </h2>
-                    <iframe title = "btc video" id = "btc-video" style = {{src:"https://www.youtube.com/embed/SSo_EIwHSd4", frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
-                    <iframe title = "blockchain video" id = "blockchain-video" style = {{src:"https://www.youtube.com/embed/L-Qhv8kLESY", frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
+              
+
+                    <iframe title = "btc video" id = "btc-video" src = "https://www.youtube.com/embed/SSo_EIwHSd4" style = {{ frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
+                    <iframe title = "blockchain video" id = "blockchain-video" src = "https://www.youtube.com/embed/L-Qhv8kLESY" style = {{ frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
                 </div>
 
 
