@@ -101,9 +101,10 @@ body {
   
   #blockchain-section{
     background-color: lightyellow;
+    
     border: 4px solid gray;
     width: 250px;
-    height: 250px;
+    height: 260px;
     position: absolute;
     left: 62.5px;
     top: 642.5px;
