@@ -84,6 +84,52 @@ ul {
 }
 
 
+#adam{
+  border: 3px solid lightgray;
+  background-color: lightyellow;
+
+}
+
+#jaser{
+  border: 3px solid lightgray;
+  background-color: lightyellow;
+
+}
+
+#gerardo{
+  border: 3px solid lightgray;
+  background-color: lightyellow;
+
+}
+
+#mopat{
+  border: 3px solid lightgray;
+  background-color: lightyellow;
+
+}
+
+#mola{
+  border: 3px solid lightgray;
+  background-color: lightyellow;
+}
+
+#exec_title {
+  font-family: 'Open Sans Condensed';
+  text-align: center; 
+  font-size: 48px;
+
+}
+
+
+#exec_desc{
+  font-family: 'Open Sans Condensed';
+  text-align: center; 
+  font-size: 24px;
+  margin-left: 125px;
+  margin-right: 125px;
+
+
+}
 
 
 
@@ -128,8 +174,24 @@ ul {
    
     background-color: #E41235;
     
+  }
 
-  
+    
+  #exec_title {
+    font-family: 'Open Sans Condensed';
+    text-align: center; 
+    font-size: 36px;
+
+  }
+
+
+  #exec_desc{
+    font-family: 'Open Sans Condensed';
+    text-align: center; 
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+
   }
 
 
