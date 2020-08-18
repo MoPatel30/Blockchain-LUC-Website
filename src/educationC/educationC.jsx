@@ -6,9 +6,9 @@ export class Education extends React.Component{
     render(){
         return(
             <div>
-            
+              
                 <div id = "blockchain-section">
-                    <h1 style = {{color: "#434343", fontSize:"2.5rem", textAlign: "center"}}> What is Blockchain? </h1>
+                    <h1 id = "title-style"> What is Blockchain? </h1>
                    
                     <p id = "text-style"> <strong>Blockchain is a distributed ledger that maintains a growing list of ordered records called blocks. A block is simply a record of a new transaction that is added to the blockchain if it has been verified.</strong></p>
                     <p id = "text-style"> Blockchain Technology has <strong>five</strong> key components:</p>
@@ -21,7 +21,7 @@ export class Education extends React.Component{
 
 
                 <div id = "bitcoin-section">
-                    <h1 style = {{color: "#434343", fontSize:"2.5rem", textAlign: "center"}}> What is Bitcoin? </h1>
+                    <h1 id = "title-style"> What is Bitcoin? </h1>
                     
                     <p id = "text-style">  <strong>Bitcoin is a peer-to-peer electronic cash payments system with five key components:</strong> </p>
                     <p id = "text-style"> 1.) <strong>Decentralized</strong> meaning there is no single authority in control of the bitcoin network. </p> 
@@ -32,23 +32,25 @@ export class Education extends React.Component{
                 </div>
 
                 <div id="more-information-resources-section">
-                    <h1 style = {{color: "#434343", fontSize:"2.5rem", textAlign: "center", fontFamily: 'Open Sans Condensed'}}> Additional Resources </h1>
+                    <h1 id = "title-style"> Additional Resources </h1>
 
-                    <h2 style = {{color: "#434343", fontSize:"2rem", textIndent: '20px', fontFamily: 'Open Sans Condensed'}}> Articles </h2>
-
-
-                    <p><a href="https://blog.lopp.net/bitcoin-timestamp-security/" style = {{position: "relative", left: "25px"}} id="article-link-style">Bitcoin Timestamp Security </a></p>
-                    <p><a href="https://nakamoto.com/what-are-the-key-properties-of-bitcoin/" style = {{position: "relative", left: "25px"}} id="article-link-style"> What are the Key Properties of Bitcoin? </a></p>
-                    <p><a href="https://blog.lopp.net/who-controls-bitcoin-core-/" style = {{position: "relative", left: "25px"}} id="article-link-style"> Who Controls Bitcoin Core? </a></p>
+                    <h2 id = "title-style">Popular Articles </h2>
 
 
-                    <h2 style = {{color: "#434343", fontSize:"2rem", textIndent: '20px', fontFamily: 'Open Sans Condensed'}}> Videos </h2>
+                    <p><a href="https://blog.lopp.net/bitcoin-timestamp-security/"  id="article-link-style">Bitcoin Timestamp Security </a></p>
+                    <p><a href="https://nakamoto.com/what-are-the-key-properties-of-bitcoin/" id="article-link-style"> What are the Key Properties of Bitcoin? </a></p>
+                    <p><a href="https://blog.lopp.net/who-controls-bitcoin-core-/" id="article-link-style"> Who Controls Bitcoin Core? </a></p>
+                    
+                    <h2 id = "title-style">Club Content </h2>
+                    <p id = "text-style">Educational content will be available soon...</p>
+
+                    <h2 id = "title-style"> Videos </h2>
               
 
                     <iframe title = "btc video" id = "btc-video" src = "https://www.youtube.com/embed/SSo_EIwHSd4" style = {{ frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
                     <iframe title = "blockchain video" id = "blockchain-video" src = "https://www.youtube.com/embed/L-Qhv8kLESY" style = {{ frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
                 </div>
-
+             
 
             
             </div>

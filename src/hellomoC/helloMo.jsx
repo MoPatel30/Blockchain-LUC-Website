@@ -9,7 +9,7 @@ export class HelloMo1 extends React.Component{
   render(){
     return (
       <div className = "helloMo">
-        <h1 style = {{color: 'whitesmoke', textAlign: 'center', fontWieght: 'lighter', whiteSpace: "pre-wrap", letterSpacing: '.2em', lineHeight: '1.5em',textTransform: 'uppercase', fontStyle: 'normal', fontFamily: 'Open Sans Condensed', fontSize: '3.5rem', webkitFontSmoothing: 'antialiased', padding: "3em" }}> Bringing the World of Blockchain to <b style = {{color: 'yellow'}}>Loyola</b> </h1>
+        <h1 id = "main-statement"> Bringing the World of Blockchain to <b style = {{color: 'yellow'}}>Loyola</b> </h1>
       </div>
     );
   }
@@ -19,12 +19,11 @@ export class HelloMo1 extends React.Component{
 export class Mission extends React.Component{
   render(){
     return(
-      <div>
+      <div id = "section-pos">
 
-       
-
-       <h1 id="section-titles">  Who We Are</h1>
-       <p id="mission-style"> <b style = {{ color: 'yellow'}}>Our Mission Statement:</b> Blockchain@LUC’s mission is to spread awareness of blockchain technology, its history, its continuing impact, and relevant projects. In maintaining this focus, we strive to educate members with a quality understanding of what this space offers, creating leaders who can use their knowledge to seamlessly adapt to the inevitable transition to a fully digitized world as the Information Age progresses.  </p>
+        <h1 id="section-titles">  Who We Are</h1>
+        <p id="mission-style"> <b style = {{ color: 'yellow'}}>Our Mission Statement:</b> Blockchain@LUC’s mission is to spread awareness of blockchain technology, its history, its continuing impact, and relevant projects. In maintaining this focus, we strive to educate members with a quality understanding of what this space offers, creating leaders who can use their knowledge to seamlessly adapt to the inevitable transition to a fully digitized world as the Information Age progresses.  </p>
+      
       </div>
     )
   } //courier New was the old font used
@@ -34,7 +33,7 @@ export class Mission extends React.Component{
 export class Partners extends React.Component{
   render(){
     return(
-      <div>
+      <div id = "section-pos">
         <h1 id="section-titles" style = {{color: '#434343'}}> Partners & Affiliates </h1>
         
         <img src= {"https://spartanblockchain.org/img/blockchain-education-network.png"} alt = "logo" id = "ben-pic"></img>

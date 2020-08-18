@@ -22,7 +22,7 @@ body {
   width: 600px;
   height: 500px;
   position: relative;
-  left: 800px;
+  left: 758px;
   top: 100px;
   font-family: courier, monospace;  
     
@@ -34,10 +34,10 @@ body {
   border: 4px solid gray;
   width: 600px;
   height: 500px;
-  position: absolute;
+  position: relative;
   right: 50px;
-  top: 589px;
-  left: 100px;
+  top: -418px;
+  left: 75px;
   margin-top: 10px;
   margin-bottom: 25px;
   font-family: "Open Sans Condensed";
@@ -49,12 +49,13 @@ body {
   background-color: lightyellow;
   border: 4px solid gray; 
   position: relative;
-  margin-left: 100px;
+  margin-left: 62.5px;
   margin-right: 100px;
-  margin-bottom: 200px;
+  margin-bottom: -200px;
   width: 1300px;
-  height: 650px;
-  top: 150px;
+  height: 850px;
+
+  top: -300px;
   font-family: 'Open Sans Condensed';
 
 }
@@ -62,24 +63,24 @@ body {
 
 #btc-video {
   position: relative; 
-  left: 90px;
+  left: 110px;
   margin-bottom: 20px;
   border: 3px solid gray;
   width: 507px;
   height: 285px;
-  top: -25px;
+  top: 0px;
 
 }
 
 
 #blockchain-video {
   position: relative; 
-  left: 135px;
+  left: 160px;
   margin-bottom: 20px;
   border: 3px solid gray;
   width: 507px;
   height: 285px;
-  top: -25px;
+  top: 0px;
 
 }
 
@@ -90,6 +91,14 @@ body {
   margin-left: 20px; 
   margin-right: 20px;
   line-height: 1.5;
+  font-family: 'Open Sans Condensed';
+
+}
+
+#title-style{
+  color: #434343;
+  font-size: 2.5rem;
+  text-align: center;
   font-family: 'Open Sans Condensed';
 
 }
@@ -107,32 +116,53 @@ body {
 
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 0px) and (max-width: 379px) {
   
   #blockchain-section{
     background-color: lightyellow;
     border: 4px solid gray;
     width: 250px;
     height: 260px;
-    position: absolute;
-    left: 62.5px;
-    top: 642.5px;
+    position: relative;
+    left: 58.5px;
+    top: 100px;
     font-family: courier, monospace;  
     
   }
 
+  
+  #article-link-style{
+    position: relative;
+    left: 25px; 
+    target: "_blank";
+    font-family: 'Open Sans Condensed';
+    font-size: 16px;
+  
+  }
+  
 
   #bitcoin-section{
     background-color: lightyellow; 
     border: 4px solid  gray;
     width: 250px;
     height: 250px;
-    position: absolute;
-    left: 62.5px;
-    top: 355px;
+    position: relative;
+    left: 58.5px;
+    top: 155px;
     margin-top: 10px;
     margin-bottom: 25px;
     font-family: "Open Sans Condensed";
+
+  }
+
+
+  #text-style{
+    font-size: 9px; 
+    color: black; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    line-height: 1.5;
+    font-family: 'Open Sans Condensed';
 
   }
 
@@ -142,10 +172,10 @@ body {
     border: 4px solid gray; 
     position: relative;
     width: 300px;
-    height: 300px;
-    left: -62.5px;
-    margin-bottom: 650px;
-    top: 630px;
+    height: 375px;
+    left: -33.5px;
+    margin-bottom: 305px;
+    top: 200px;
     font-family: 'Open Sans Condensed';
 
   }
@@ -174,5 +204,137 @@ body {
     
   }
   
+
+}
+
+
+@media only screen and (min-width: 380px) and (max-width: 550px) {
+  
+  #blockchain-section{
+    background-color: lightyellow;
+    border: 4px solid gray;
+    width: 250px;
+    height: 260px;
+    position: relative;
+    left: 19%;
+    top: 400px;
+    font-family: courier, monospace;  
+
+    
+  }
+
+  #title-style{
+    color: #434343;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+  
+  }
+
+    
+  #text-style{
+    font-size: 9px; 
+    color: black; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    line-height: 1.5;
+    font-family: 'Open Sans Condensed';
+
+  }
+
+
+  #article-link-style{
+    position: relative;
+    left: 25px; 
+    target: "_blank";
+    font-family: 'Open Sans Condensed';
+    font-size: 16px;
+  
+  }
+  
+
+  #bitcoin-section{
+    background-color: lightyellow; 
+    border: 4px solid  gray;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 19%;
+    top: -175px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: "Open Sans Condensed";
+
+
+  }
+
+
+  #more-information-resources-section{
+    background-color: lightyellow;
+    border: 4px solid gray; 
+    position: relative;
+    width: 300px;
+    height: 325px;
+    left: -2%;
+    margin-bottom: 200px;
+    top: 150px;
+    font-family: 'Open Sans Condensed';
+
+
+  }
+
+
+  #btc-video {
+    position: relative; 
+    left: 45px;
+    margin-bottom: 20px;
+    border: 3px solid gray;
+    width: 75px;
+    height: 35px;
+    top: 25px;
+  
+  }
+  
+  
+  #blockchain-video {
+    position: relative; 
+    left: 85px;
+    margin-bottom: 20px;
+    border: 3px solid gray;
+    width: 75px;
+    height: 35px;
+    top: 25px;
+    
+  }
+  
+
+}
+
+
+
+@media only screen and (min-width: 1600px) {
+
+  #blockchain-section{
+    position: relative;
+    left: 1075px;
+    top: 170px;
+
+  }
+
+  #bitcoin-section{
+    position: relative;
+    left: 250px;
+    top: -350px;
+  }
+
+  #more-information-resources-section{
+    position: relative;
+    left: 200px;
+    top: -100px;
+  
+  }
+
+
+
 
 }
