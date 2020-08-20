@@ -33,7 +33,7 @@ export class Mission extends React.Component{
 export class Partners extends React.Component{
   render(){
     return(
-      <div id = "section-pos">
+      <div id = "section-partners-pos">
         <h1 id="section-titles" style = {{color: '#434343'}}> Partners & Affiliates </h1>
         
         <img src= {"https://spartanblockchain.org/img/blockchain-education-network.png"} alt = "logo" id = "ben-pic"></img>
@@ -46,7 +46,7 @@ export class Partners extends React.Component{
 export class EventsHome extends React.Component {
   render(){
     return(
-      <div style = {{marginTop: "50px" , marginBottom: '50px'}}>
+      <div id = "events-pos" style = {{marginTop: "50px" , marginBottom: '50px'}}>
         <h1 id="section-titles" style = {{ color: '#434343', marginBottom: '50px', position: 'relative', top: '35px'}}>EVENTS</h1>
         <p style = {{fontSize: '16px', textAlign: 'center'}}> Stay tuned for more information regarding future events and meetings!</p>
       </div>

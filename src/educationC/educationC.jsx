@@ -1,6 +1,5 @@
 import React from 'react';
-import '../education.css'
-
+import '../education.css';
 
 export class Education extends React.Component{
     render(){
