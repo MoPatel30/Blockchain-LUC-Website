@@ -20,6 +20,14 @@ html {
 
 }
 
+#app{
+  background-color: maroon;
+}
+
+#header-style{
+  min-width: 98%;
+  
+}
 #main-statement{
   color: whitesmoke;
   text-align: center;
@@ -67,15 +75,11 @@ html {
 }
 
 
-.App {
-  
-  min-width: 100%;
-}
 
 #mission {
-  background-color: #E41235;
+  background-color: maroon; /* #E41235*/
   background-size: 100% 100%;
-  min-width: 103.5%;
+  min-width: 100%;
   position: relative;
   top: -194px;
 
@@ -106,7 +110,7 @@ html {
   background-size: 100% 320px;
   background-repeat: no-repeat;
   margin-top: -28.5px;
-  min-width: 103.5%;
+  min-width: 100%;
   
 }
 
@@ -167,9 +171,7 @@ navButton {
 
 }
 
-#header-style{
-  width: 40%;
-}
+
 
 #education-button{
   background-color: whitesmoke;
@@ -218,7 +220,7 @@ navButton {
 #middle-btn-pos{
   position: absolute;
   top: 468px;
-  min-width: 103.5%;
+  min-width: 100%;
   height: 8.5%;
 
 }
@@ -226,7 +228,7 @@ navButton {
 #about-btn-pos{
   position: relative; 
   top: -147.1px;
-  min-width: 103.5%;
+  min-width: 100%;
   margin-bottom: 46px;
 }
 
@@ -243,9 +245,9 @@ div[class*=box] {
   align-items: center;
 }
 
-.box-1 { background-color: #E41235; }
+.box-1 { background-color: maroon; }
 .box-2 { background-color: #3C3C3C; }
-.box-3 { background-color: #E41235; }
+.box-3 { background-color: maroon; }
 
 .btn {
     line-height: 50px;
@@ -288,7 +290,8 @@ div[class*=box] {
     transform: scale(0.1, 1);
 }
 .btn-one:hover span {
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    font-size: 18px;
 }
 .btn-one:hover::before {
     opacity: 1; 
@@ -368,8 +371,8 @@ Button three
 
   #about-btn-pos{
     position: relative; 
-    top: 47px;
-    margin-bottom: 47px;
+    top: 45px;
+    margin-bottom: 45px;
   }
   #events-pos{
     position: relative;
@@ -412,8 +415,18 @@ Button three
   html{
     font-size: 6px;
   }
+  #header-style{
+    min-width: 95%;
+  }
   #main-statement{
-    top: 0px;
+    top: 20px;
+    font-weight: bolder;
+  }
+  #hellomo{
+    position: relative;
+    top: 15px;
+    left: 0px;
+    max-width: 99%;
   }
   #middle-btn-pos{
     position: absolute;
@@ -439,7 +452,7 @@ Button three
 
   #about-btn-pos{
     position: relative; 
-    top: 49px;
+    top: 53px;
     margin-bottom: 55px;
   }
 
@@ -484,12 +497,12 @@ Button three
 
   #mission{
     position: relative;
-    top: -5.8px;
+    top: -2px;
   }
 
   #section-partners-pos{
     position: relative;
-    top: 0px;
+    top: -2px;
   }
 
 
@@ -506,6 +519,10 @@ Button three
   margin-top: -28.5px;
   
 }
+.btn-one:hover span {
+    letter-spacing: 3px;
+    font-size: 18px;
+}
 }
 
 
@@ -518,8 +535,14 @@ Button three
 
   }
   #main-statement{
-    top: 0px;
+    top: 15px;
+    font-weight: bolder;
   }
+
+  #header-style{
+    min-width: 95%;
+  }
+
 
   #mission{
     position: relative;
@@ -636,7 +659,7 @@ Button three
     
   #about-btn-pos{
     position: relative; 
-    top: 47px;
+    top: 47.5px;
     margin-bottom: 47px;
 }
 
