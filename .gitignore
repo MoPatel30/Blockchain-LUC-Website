@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+
+# firebase stuff
+firebase.json
+.firebase
+.firebaserc
+
+
 # testing
 /coverage
 
@@ -23,8 +30,6 @@ yarn-debug.log*
 yarn-error.log*
 
 
-# firebase stuff
-/build
-firebase.json
-.firebase
-.firebaserc
+package-lock.json
+
+
