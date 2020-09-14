@@ -14,7 +14,7 @@ their own pace.
 
 ![Main Page](src/images/lucb.JPG)
 
-Club Website Link: https://luc-blockchain.web.app/
+Club Website Link: https://blockchainluc.org/
 
 ## Languages/Tools/Services 
 

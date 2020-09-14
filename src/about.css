@@ -125,17 +125,25 @@ ul {
 
 #exec_title {
   font-family: 'Open Sans Condensed';
-  text-align: center; 
+  text-align: left; 
+  margin-left: 25px;
   font-size: 48px;
 
 }
 
+.exec_tags{
+  font-size: 18px;
+  margin-left: 25px;
+  font-family: Ubuntu,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
 
 #exec_desc{
   font-family: 'Open Sans Condensed';
-  text-align: center; 
+  text-align: left; 
   font-size: 24px;
-  margin-left: 125px;
+  margin-left: 25px;
   margin-right: 125px;
 
 }
