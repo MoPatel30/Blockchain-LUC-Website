@@ -92,6 +92,7 @@ ul {
 #adam{
   border: 3px solid lightgray;
   background-color: lightyellow;
+  margin-bottom: -225px;
 
 }
 
@@ -99,6 +100,7 @@ ul {
 #jaser{
   border: 3px solid lightgray;
   background-color: lightyellow;
+  margin-bottom: -225px;
 
 }
 
@@ -106,6 +108,7 @@ ul {
 #gerardo{
   border: 3px solid lightgray;
   background-color: lightyellow;
+  margin-bottom: -225px;
 
 }
 
@@ -113,6 +116,7 @@ ul {
 #mopat{
   border: 3px solid lightgray;
   background-color: lightyellow;
+  margin-bottom: -225px;
 
 }
 
@@ -120,6 +124,7 @@ ul {
 #mola{
   border: 3px solid lightgray;
   background-color: lightyellow;
+  margin-bottom: -225px;
 }
 
 
@@ -143,8 +148,18 @@ ul {
   font-family: 'Open Sans Condensed';
   text-align: left; 
   font-size: 24px;
+  line-height: 1.25cm;
+  width: 70%;
   margin-left: 25px;
   margin-right: 125px;
+
+}
+
+#profile-pic{
+  position: relative;
+  left: 80%;
+  top: -400px;
+ 
 
 }
 
@@ -196,7 +211,7 @@ ul {
     
   #exec_title {
     font-family: 'Open Sans Condensed';
-    text-align: center; 
+    text-align: left; 
     font-size: 36px;
 
   }
@@ -204,12 +219,64 @@ ul {
 
   #exec_desc{
     font-family: 'Open Sans Condensed';
-    text-align: center; 
+    text-align: left; 
     font-size: 18px;
+    width: 85%;
+    line-height: 1.0cm;
     margin-left: 25px;
     margin-right: 25px;
 
   }
+
+    
+  #adam{
+    border: 3px solid lightgray;
+    background-color: lightyellow;
+    margin-bottom: 0px;
+
+  }
+
+
+  #jaser{
+    border: 3px solid lightgray;
+    background-color: lightyellow;
+    margin-bottom: 0px;
+
+  }
+
+
+  #gerardo{
+    border: 3px solid lightgray;
+    background-color: lightyellow;
+    margin-bottom: 0px;
+
+  }
+
+
+  #mopat{
+    border: 3px solid lightgray;
+    background-color: lightyellow;
+    margin-bottom: 0px;
+
+  }
+
+
+  #mola{
+    border: 3px solid lightgray;
+    background-color: lightyellow;
+    margin-bottom: 0px;
+  }
+
+  #profile-pic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    left: 20%;
+    top: 0px;
+  }
+    
 
 
 }

@@ -36,7 +36,7 @@ export class Partners extends React.Component{
       <div id = "section-partners-pos">
         <h1 id="section-titles" style = {{color: '#434343'}}> Partners & Affiliates </h1>
         
-        <img src= {"https://spartanblockchain.org/img/blockchain-education-network.png"} alt = "logo" id = "ben-pic"></img>
+        <img src= {"https://blockchainedu.org/static/media/ben-full-logo.3f23ec07.png"} alt = "logo" id = "ben-pic"></img>
         <img src= {"https://cdn.evbuc.com/images/81575633/313627578122/1/original.20191118-044933"} alt="Blockchain Institute Logo" id = "bi-pic"></img>
         <img src= {"https://mousebelt.university/wp-content/uploads/2019/01/mousebeltUniversityLogin.png"} alt="Mousebelt University Logo" id = "mbu-pic"></img>
      
