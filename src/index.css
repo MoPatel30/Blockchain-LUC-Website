@@ -26,7 +26,7 @@ html {
 
 #header-style{
   min-width: 98%;
-  
+ 
 }
 #main-statement{
   color: whitesmoke;
@@ -49,7 +49,7 @@ html {
 
 #ben-pic {
   position: relative;
-  height: 225px;
+  height: 125px;
   width: 250px;
   left: 100px; 
   top: -75px;
@@ -389,10 +389,10 @@ Button three
     
   #ben-pic {
     position: relative;
-    height: 225px;
+    height: 125px;
     width: 250px;
     left: 125px; 
-    top: -75px;
+    top: -100px;
 
   }
 
@@ -458,10 +458,10 @@ Button three
 
   #ben-pic {
     position: relative;
-    height: 75px;
+    height: 50px;
     width: 75px;
     left: 20px;
-    top: 0px;
+    top: -20px;
 
   }
 
@@ -586,10 +586,10 @@ Button three
 
   #ben-pic {
     position: relative;
-    height: 75px;
+    height: 50px;
     width: 75px;
     left: 20px;
-    top: -10px;
+    top: -20px;
 
   }
 
@@ -669,9 +669,60 @@ Button three
 }
 
 @media only screen and (min-width: 551px) and (max-width: 1024px) {
- 
+      
+  #about-btn-pos{
+    position: relative; 
+    top: -67.5px;
+    margin-bottom: 47px;
+  }
+
+  #mission{
+    position: relative;
+    top: -115px;
+  
+  }
+
+  #section-partners-pos{
+    position: relative;
+    top: -100px;
+  }
+
+  
+  #ben-pic {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    left: 20px;
+    top: -25px;
+
+  }
+
+  #bi-pic {
+    position: relative;
+    height: 120px;
+    width: 360px;
+    left: 35px;
+    top: -12.5px;
+
+  }
+
+  #mbu-pic {
+    position: relative;
+    height: 90px;
+    width: 150px;
+    left: 50px;
+    top: -25px;
+    
+  }
+
+  #events-pos{
+    position: relative;
+    top: -100px;
+  }
   
 
+  
+  
 
 }
 
