@@ -107,3 +107,22 @@ export class MoLa extends React.Component{
 }
 
 
+export class Kev extends React.Component{
+  render(){
+    return(
+      <div id = "kev">
+        <h1 id = "exec_title">Kevin Guillaume</h1>
+
+        <p className ="exec_tags"><u>2nd year Computer Science & Software Engineering Student</u></p>
+
+        <p id = "exec_desc"><b>Kevin Guillaume</b>is a student who is currently majoring in both computer-science and Software Engineering. Kevin’s interest for technology started at a young age with his first Playstation system, PS2. With an interest in technology, Kevin recently became fascinated by Bitcoin after having multiple conversations with his friends. In his free time, you can find Kevin playing basketball at a gym or park, or even playing video games.  </p>
+
+        <p className ="exec_tags">Areas of Interest: Computer Science, Blockchain, Crypto, Gaming </p>
+
+        <img src = {"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.engr.uconn.edu%2F~gelyko%2Fimages%2Fpeople_pic%2Fanonymous.png&f=1&nofb=1"} id = "profile-pic"></img>
+       
+      </div>
+    )
+  }
+}
+

@@ -2,7 +2,7 @@ import React from 'react';
 
 import "../index.css"
 import {Education} from "../educationC/educationC.jsx";
-import { Adam, Jaser, Gerardo, MoPat, MoLa} from "../aboutC/aboutC.jsx";
+import { Adam, Jaser, Gerardo, MoPat, MoLa, Kev} from "../aboutC/aboutC.jsx";
 
 
 export class HelloMo1 extends React.Component{
@@ -65,7 +65,8 @@ export class Test extends React.Component{
       jaser: false,
       gerardo: false,
       mopat: false,
-      mola: false
+      mola: false,
+      kev: false
     }
   }
 
@@ -78,7 +79,8 @@ export class Test extends React.Component{
         jaser: false,
         gerardo: false,
         mopat: false,
-        mola: false
+        mola: false,
+        kev: false
       })
       return
     }
@@ -88,7 +90,8 @@ export class Test extends React.Component{
       jaser: false,
       gerardo: false,
       mopat: false,
-      mola: false
+      mola: false,
+      kev: false
     })
    
   }
@@ -101,7 +104,8 @@ export class Test extends React.Component{
         jaser: false,
         gerardo: false,
         mopat: false,
-        mola: false
+        mola: false,
+        kev: false
       })
       return
     }
@@ -111,7 +115,8 @@ export class Test extends React.Component{
       jaser: true,
       gerardo: false,
       mopat: false,
-      mola: false
+      mola: false,
+      kev: false
     })
    
   }
@@ -124,7 +129,8 @@ export class Test extends React.Component{
         jaser: false,
         gerardo: false,
         mopat: false,
-        mola: false
+        mola: false,
+        kev: false
       })
       return
     }
@@ -134,7 +140,8 @@ export class Test extends React.Component{
       jaser: false,
       gerardo: true,
       mopat: false,
-      mola: false
+      mola: false,
+      kev: false
     })
    
   }
@@ -147,7 +154,8 @@ export class Test extends React.Component{
         jaser: false,
         gerardo: false,
         mopat: false,
-        mola: false
+        mola: false,
+        kev: false
       })
       return
     }
@@ -157,7 +165,8 @@ export class Test extends React.Component{
       jaser: false,
       gerardo: false,
       mopat: true,
-      mola: false
+      mola: false,
+      kev: false
     })
    
   }
@@ -169,7 +178,8 @@ export class Test extends React.Component{
         jaser: false,
         gerardo: false,
         mopat: false,
-        mola: false
+        mola: false,
+        kev: false
       })
       return
     }
@@ -179,11 +189,36 @@ export class Test extends React.Component{
       jaser: false,
       gerardo: false,
       mopat: false,
-      mola: true
+      mola: true,
+      kev: false
     })
    
   }
 
+
+  showKev(){
+    if(this.state.kev=== true){
+      this.setState({
+        adam: false,
+        jaser: false,
+        gerardo: false,
+        mopat: false,
+        mola: false,
+        kev: false
+      })
+      return
+    }
+
+    this.setState({
+      adam: false,
+      jaser: false,
+      gerardo: false,
+      mopat: false,
+      mola: false,
+      kev: true
+    })
+   
+  }
 
   render(){
     return(
@@ -211,6 +246,11 @@ export class Test extends React.Component{
           </div>
         </div>
         <div class="box-1">
+          <div onClick ={() => this.showKev()} class="btn btn-one">
+            <span> Website Developer: Kevin Guillaume</span>
+          </div>
+        </div>
+        <div class="box-1">
           <div onClick ={() => this.showMoLa()} class="btn btn-one">
             <span>Secretary: Mohammad Larya</span>
           </div>
@@ -234,6 +274,10 @@ export class Test extends React.Component{
         }
         {this.state.mola?
             <MoLa/>
+            :null
+        }
+        {this.state.kev?
+            <Kev/>
             :null
         }
       </div>
